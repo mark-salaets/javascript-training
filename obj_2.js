@@ -54,7 +54,5 @@ function meetLvlReq() {
 }
 
 console.log(showObjects());
-
 console.log(isAvailable());
-
 console.log(meetLvlReq());

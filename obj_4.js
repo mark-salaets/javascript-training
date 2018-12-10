@@ -28,13 +28,11 @@ let chars = {
       if(this.life < 0) {
         return window.alert(this.name + " is dead!");
       }
-
-      return this.name + " has taken " + dmgDone + " damage and has " + this.life + " hp left."
+      console.log(this.name + " has taken " + dmgDone + " damage and has " + this.life + " hp left.");
+      console.log(" ");
     }
   }
 }
-
-
 
 console.log("click the button to attack");
 console.log(" ");
